@@ -1,0 +1,15 @@
+**.pyc
+
+# IDE configuration files
+.idea
+.vscode
+
+# virtualenv folder
+venv
+
+# Compiled libs
+**.pyd
+**.so
+
+# Config file
+config.ini
