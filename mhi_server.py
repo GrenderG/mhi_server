@@ -101,7 +101,7 @@ def register_routes(app):
             # 0x6e: Membership required.
             hex_response = '01000000'
         
-        return file_response(bytes.fromhex(hex_response)
+        return file_response(bytes.fromhex(hex_response))
     
     @app.route('/ac_check', methods=['GET'])
     def handle_ac_check():
