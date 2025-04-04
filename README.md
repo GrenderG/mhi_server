@@ -30,7 +30,7 @@ The repository includes a Python Flask server (`mhi_server.py`) that:
 4. Run the server: `python mhi_server.py`.
 
 ## Notes
-Textures are .bmp files with an 8-bit color depth and use an indexed 128 colors palette. If you're using GIMP, make sure to enable "Do not write color space information" under "Compatibility Options" when exporting the file. If using Photoshop make sure Palette is set to "Local (Perceptual)", Colors to "128", Forced to "Black and White", Transparency disabled, Matte to "None", Dither to "Diffusion", Amount to "75%" and Preserve Exact Colors is disabled.
+Textures are .bmp files with an 8-bit color depth and use a 96-color indexed palette (we tried 256, but they didn't work; 128 worked sometimes) If you're using GIMP, make sure to enable "Do not write color space information" under "Compatibility Options" when exporting the file. If using Photoshop make sure Palette is set to "Local (Perceptual)", Colors to "128", Forced to "Black and White", Transparency disabled, Matte to "None", Dither to "Diffusion", Amount to "75%" and Preserve Exact Colors is disabled.
 
 Armor textures are easy to test using [PVMicro](https://github.com/j2me-preservation/MascotCapsule/raw/refs/heads/master/Docs_Resources_SDK/pvmicro_v5_0.zip). Open PVMicro (launch the "E" version for English), load the .mbac file, then the .mtra file, and then your gard_YY.bmp file. You can edit the image and save, and PVMicro will update automatically.
 
