@@ -34,7 +34,7 @@ Textures are .bmp files with an 8-bit color depth and use a 256-color indexed pa
 
 Armor textures are easy to test using [PVMicro](https://github.com/j2me-preservation/MascotCapsule/raw/refs/heads/master/Docs_Resources_SDK/pvmicro_v5_0.zip). Open PVMicro (launch the "E" version for English), load the .mbac file, then the .mtra file, and then your gard_YY.bmp file. You can edit the image and save, and PVMicro will update automatically.
 
-Max sizes:
+Max sizes (zipped + 3 bytes header):
 - **pcX_gard_YY.dat**: 14336 bytes.
 - **m_pcX.dat**: 7600 bytes.
 - **gard_YY.dat:** 1500 bytes.
